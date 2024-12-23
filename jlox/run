@@ -1,0 +1,10 @@
+./build
+
+filename="${1:-jlox/Lox}"
+echo Running $filename.
+
+cd bin
+java $filename $2
+cd ../
+
+echo Done.

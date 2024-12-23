@@ -1,0 +1,5 @@
+echo Building...
+find -wholename "./src/*.java" > sources.txt
+javac @sources.txt
+rm sources.txt
+echo Done.
